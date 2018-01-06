@@ -113,6 +113,20 @@
 #define E1_ENABLE_PIN      30
 #define E1_CS_PIN          44
 
+#define X_MS1_PIN 5
+#define X_MS2_PIN 6
+
+#define Y_MS1_PIN 59
+#define Y_MS2_PIN 58
+
+#define Z_MS1_PIN 22
+#define Z_MS2_PIN 39
+
+#define E0_MS1_PIN 63
+#define E0_MS2_PIN 64
+
+#define E1_MS1_PIN 57
+#define E1_MS2_PIN 4
 
 #if ENABLED(HAVE_TMC2208)
   /**
