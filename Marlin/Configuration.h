@@ -359,9 +359,9 @@
   // #define  DEFAULT_Ki 1.08
   // #define  DEFAULT_Kd 114
   // Autotune result for 240C
-  #define  DEFAULT_Kp 17.60
-  #define  DEFAULT_Ki 1.29
-  #define  DEFAULT_Kd 60.20
+  #define  DEFAULT_Kp 20.50
+  #define  DEFAULT_Ki 1.48
+  #define  DEFAULT_Kd 70.91
 
   // MakerGear
   //#define  DEFAULT_Kp 7.0
@@ -784,8 +784,8 @@
 // @section machine
 
 // The size of the print bed
-#define X_BED_SIZE 210
-#define Y_BED_SIZE 210
+#define X_BED_SIZE 220
+#define Y_BED_SIZE 220
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS 0
@@ -986,8 +986,8 @@
   //=================================== Mesh ==================================
   //===========================================================================
 
-  #define MESH_INSET 10          // Mesh inset margin on print area
-  #define GRID_MAX_POINTS_X 3    // Don't use more than 7 points per axis, implementation limited.
+  #define MESH_INSET 30          // Mesh inset margin on print area
+  #define GRID_MAX_POINTS_X 5    // Don't use more than 7 points per axis, implementation limited.
   #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
 
   //#define MESH_G28_REST_ORIGIN // After homing all axes ('G28' or 'G28 XYZ') rest Z at Z_MIN_POS
